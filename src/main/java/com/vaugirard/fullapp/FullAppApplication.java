@@ -17,6 +17,6 @@ public class FullAppApplication {
 
     @GetMapping
     public ResponseEntity<String> hello() {
-        return new ResponseEntity<>("Hello World !", HttpStatus.OK);
+        return new ResponseEntity<>("Hello Jenkins !", HttpStatus.OK);
     }
 }
